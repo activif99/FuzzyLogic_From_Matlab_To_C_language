@@ -44,9 +44,12 @@ A performance benchmark highlights significant improvements when using C:
 
 # Setup
 
-first you need to change the path to the dataset **TripB10_B11_fuzzy_throttle_hvac_1.csv** and the path to the results **results.csv** on the source code to their paths on your device:
-  
-  const char *filePath = "C:/Users/univ/Desktop/stadiz/(PROJET)PFS_FuzzyLogic/TripB10_B11_fuzzy_throttle_hvac_1.csv";
+first you need to change the path to the dataset **TripB10_B11_fuzzy_throttle_hvac_1.csv** and the path to the results **results.csv** on the source code to their paths on your device:  
+```
+const char *filePathData = "C:/Users/univ/Desktop/stadiz/(PROJET)PFS_FuzzyLogic/TripB10_B11_fuzzy_throttle_hvac_1.csv";
+const char *filePathRsults = "C:/Users/univ/Desktop/stadiz/(PROJET)PFS_FuzzyLogic/results.csv";
+    
+```
 
 run the source code
 
