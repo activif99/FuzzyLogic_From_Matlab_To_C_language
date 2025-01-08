@@ -44,13 +44,16 @@ A performance benchmark highlights significant improvements when using C:
 
 # Setup
 
-first you need to change the path to the dataset **TripB10_B11_fuzzy_throttle_hvac_1.csv** and the path to the results **results.csv** on the source code to their paths on your device:  
+First you need to change the path to the dataset `data/TripB10_B11_fuzzy_throttle_hvac_1.csv` and the path to the results `data/results.csv` on the source code to their paths on your device:  
 ```
-const char *filePathData = "C:/Users/univ/Desktop/stadiz/(PROJET)PFS_FuzzyLogic/TripB10_B11_fuzzy_throttle_hvac_1.csv";
-const char *filePathRsults = "C:/Users/univ/Desktop/stadiz/(PROJET)PFS_FuzzyLogic/results.csv";
-    
+const char *filePathData = "C:/path/to/your/file/here/TripB10_B11_fuzzy_throttle_hvac_1.csv";
+const char *filePathRsults = "C:/path/to/your/file/here/(PROJET)PFS_FuzzyLogic/results.csv";
 ```
 
-run the source code
+Run the source code `src/convDataset.c`
+
+The results will be printed in the console and also written in the results file.
+
+You can plot the results using the python script `scripts/plotting.py` but dont forget to change again the results file path to your own.
 
 
